@@ -1,6 +1,6 @@
 # HateSpeechDetection_using_MTL
 
-This project follows MTL approch by leverages knowledge gained from sentiment analysis and emotion detection in detection hate speech in the given sentence.
+This project follows MTL approch by leverages knowledge gained from sentiment analysis and emotion detection in detection hate speech in the given sentence. Out of all the models build, MTL with emotion and polarity outperformed all others.
 
 ## RESULTS
 
@@ -11,7 +11,11 @@ This project follows MTL approch by leverages knowledge gained from sentiment an
 | MTL with polarity               | 70.50%  |
 | MTL with emotion and polarity   | 72.27%  |
 
+## Usage
+1. You can visit my [application](https://huggingface.co/spaces/Mahathi7/HateSpeech)
+2. Input a sentence and click submit
+
 ## CHECKPOINTS
-U can download the model [checkpoints](https://github.com/mahathibodela/HateSpeechDectection_using_MTL/checkpoints/hateSpeechEmotion.pth)
+You can download the model [checkpoints](https://huggingface.co/spaces/Mahathi7/HateSpeech/blob/main/hateSpeechEmotion.pth)
 
 This project is based on the [reaseach paper](https://ieeexplore.ieee.org/abstract/document/9509436)
